@@ -1,0 +1,15 @@
+.myBtn{
+    padding: 5px 10px;
+    color: #20232a;
+    background-color: #61dafb;
+    cursor: pointer;
+    border: none;
+}.myBtn:hover{
+    background-color: #80e3ff; 
+}
+.myBtn:active{
+    background-color: #2fabcd;
+}
+.myBtn:disabled{
+    background-color: #8babb4;
+}

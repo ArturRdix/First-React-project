@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-weight: 100;
+    font-family: 'Arial';
+    background-color: #20232a;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+h1{
+    color: white;
+}
+.post {
+    margin-top: 20px;
+    border: 5px solid #61dafb;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__content{
+    word-break: break-all;
+}
